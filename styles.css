@@ -63,8 +63,8 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%;
-  left: 10%;
+  top: 45%;
+  left: 46%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -148,10 +148,11 @@ button {
 }
 
 .card {
-  width: 100%;
-  height: 100%;
+  width: 19rem;
+  height: 10rem;
   padding: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -188,5 +189,7 @@ button {
   }
   .card {
     flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
 }
